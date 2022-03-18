@@ -11,6 +11,7 @@ function showLightbox() {
   lightboxImage.setAttribute("src", bigLocation);
   lightbox.style.display = "block";
 }
+
 lightbox.onclick = function () {
   lightbox.style.display = "none";
 };
