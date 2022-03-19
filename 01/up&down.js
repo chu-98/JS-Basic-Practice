@@ -3,6 +3,7 @@ let randomNumber = Math.floor(Math.random() * 100 + 1);
 
 function finding() {
   var userNumber = document.querySelector("#try").value;
+
   if (userNumber >= 1 && userNumber <= 100) {
     if (randomNumber > userNumber) {
       // "Up!!!"

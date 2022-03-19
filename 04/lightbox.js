@@ -3,7 +3,7 @@ var lightbox = document.querySelector("#lightbox");
 var lightboxImage = document.querySelector("#lightboxImage");
 
 for (var i = 0; i < pics.length; i++) {
-  pics[i].addEventListener("click", showLightbox); // 이미지 누르면 showLight 함수 실행
+  pics[i].onclick = showLightbox; // 이미지 누르면 showLight 함수 실행
 }
 
 function showLightbox() {

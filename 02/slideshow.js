@@ -4,6 +4,7 @@ let next = document.querySelector("#next");
 
 let current = 0;
 showSlide(current); // showSlide() 함수를 실행해 current 위치의 이미지 표시
+
 prev.onclick = prevSlide;
 next.onclick = nextSlide;
 
@@ -18,11 +19,6 @@ function prevSlide() {
   if (current > 0) current -= 1;
   else current = slides.length - 1;
 
-  //   if (current > 0) {
-  //     current -= 1;
-  //   } else {
-  //     current = slides.length - 1;
-  //   }
   showSlide(current);
 }
 
